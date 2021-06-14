@@ -1,0 +1,17 @@
+h1{
+    background-color: red;
+}
+body{
+    margin: auto;
+    background-color: antiquewhite;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+#test{
+  background-color: aliceblue;
+}

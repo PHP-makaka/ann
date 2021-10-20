@@ -1,8 +1,8 @@
 let btn =document.getElementById("btn")
 let textArera = document.getElementById("test")
 btn.addEventListener("click",fun)
-const arr =['Submitted',"For_Review","For_Review",'For_Pre_Interview','For_Interview','Interviewed','For_Training','In_training','For_Placement','Under_Evaluation','Hired','Postponed,\n' +
-'Rejected','Fired','Associated','For_Test','In_Testing','Test_Evaluation','Tested']
+const arr =['affectionate',"ambitious","anxious",'bossy','charming','competitive','honest','imaginative','independent','insecure','mature','moody,\n' +
+'patient','rebellious','reliable','self-confident','selfish','sensible','sensible','socoable','spoilt','stubborn']
 
 function fun(){
     let num =Math.floor(Math.random() * arr.length)

@@ -8,6 +8,6 @@ const arr =[['affectionate','ласковый'],["ambitious",'амбициозн
 
 function fun(){
     let num =Math.floor(Math.random() * arr.length)
-    textOtvet.innerText=arr[num[1]];
-    textArera.innerText=arr[num[0]];
+    textOtvet.innerText=arr[num][1];
+    textArera.innerText=arr[num][0];
 }
